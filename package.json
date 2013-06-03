@@ -14,6 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "xmldoc": "~0.1.2",
-    "tsd": "https://github.com/Diullei/tsd/archive/3ed4fc45084dbb7640ecdd9834c4447c9094b1f8.tar.gz"
+    "tsd": "https://github.com/Diullei/tsd/archive/3ed4fc45084dbb7640ecdd9834c4447c9094b1f8.tar.gz",
+    "nomnom": "~1.6.1"
   }
 }
