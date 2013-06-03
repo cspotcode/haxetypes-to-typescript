@@ -1,0 +1,19 @@
+{
+  "name": "haxetypes-to-typescript",
+  "version": "0.0.0",
+  "description": "Converts XML type information from Haxe into Typescript type definitions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cspotcode/haxetypes-to-typescript"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xmldoc": "~0.1.2",
+    "tsd": "https://github.com/Diullei/tsd/archive/3ed4fc45084dbb7640ecdd9834c4447c9094b1f8.tar.gz"
+  }
+}
