@@ -1,3 +1,9 @@
+Create TypeScript definition files (`.d.ts`) from Haxe, allowing you to use Haxe compiled to JavaScript in your TypeScript
+projects.
+
+About
+---
+
 This code converts Haxe XML type information (from the Haxe compiler) into a TypeScript definition file.
 
 It is mostly generic, but has been purpose-built to generate type info for the Nape physics engine, compile to
