@@ -386,15 +386,9 @@ var typeReplacements: {[i: string]: string;} = {
 };
 
 rootPackage.getChildPackages().forEach((pkg:Package) => {
-    // Reject haxe and js packages
+    // Reject non-nape packages
     if(pkg.name !== 'nape' && pkg.name !== 'zpp_nape') return;
     printPackage(pkg);
 });
 
 fs.writeFileSync(opts.output, buffer.join(''));
-/*
-fs.writeFileSync('output.json', JSON.stringify(types, (key, value) => {
-    if(key && value === undefined) throw new Error('key "' + key + '" has value undefined');
-    //console.log(key, value);
-    return value;
-}, '    '));*/
